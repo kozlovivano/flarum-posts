@@ -1,0 +1,45 @@
+fof-byobu:
+    forum:
+        badges:
+            is_private:
+                tooltip: דיון פרטי
+        buttons:
+            add_recipients: נמענים
+            submit: אישור
+            edit_recipients: ערוך נמענים
+            send_pd: "שלח ל{username} הודעה"
+        labels:
+            recipients: "{count} נעמנים|נעמען אחד"
+            user_deleted: -נמחק-
+        nav:
+            private_discussions: דיון פרטי
+        input:
+            search_recipients: חפש נעמנים על ידי הקלדת שלוש אותיות ראשונות...
+        search:
+            headings:
+                groups: לפי הרשאות
+        modal:
+            titles:
+                update_recipients: ערוך נמעני {title}
+                add_recipients: הוסף נעמנים לדיון שלך
+        post:
+            recipients_modified:
+                added_and_removed: "{username} הוסיף את הנמענים {added} והסיר את {removed}."
+                added: "{username} הוסיף את {added}."
+                removed: "{username} הסיר את {removed}."
+        user:
+            settings:
+                block_pd: חסום דיוניים פרטיים
+
+            byobu_link: דיונים פרטיים
+
+    admin:
+        permission:
+            create_private_discussions_with_users: צור דיונים פרטיים עם משתמשים
+            create_private_discussions_with_groups: צור דיונים פרטיים עם קבוצות
+            create_private_discussions_with_blocking_users: צור דיונים פרטיים עם משתמשים שחוסמים אפשרות זו
+            edit_user_recipients: ערוך משתמשים שחולקים דיונים פרטיים
+            edit_group_recipients: ערוך קבוצות שחולקות דיונים פרטיים
+
+        settings:
+            byobu_users_page_label: הוסף דיונים פרטיים לדף המשתמש
