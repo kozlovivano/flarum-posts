@@ -56,7 +56,12 @@ class ComposerStaticInitc823c93af38a50f913ebe43a8bb02b89
         ),
         'W' => 
         array (
+            'WiwatSrt\\BestAnswer\\' => 20,
             'Whoops\\' => 7,
+        ),
+        'V' => 
+        array (
+            'V17Development\\FlarumSeo\\' => 25,
         ),
         'T' => 
         array (
@@ -223,9 +228,17 @@ class ComposerStaticInitc823c93af38a50f913ebe43a8bb02b89
         array (
             0 => __DIR__ . '/..' . '/zendframework/zend-diactoros/src',
         ),
+        'WiwatSrt\\BestAnswer\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/wiwatsrt/flarum-ext-best-answer/src',
+        ),
         'Whoops\\' => 
         array (
             0 => __DIR__ . '/..' . '/filp/whoops/src/Whoops',
+        ),
+        'V17Development\\FlarumSeo\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/v17development/flarum-seo/src',
         ),
         'Tobscure\\JsonApi\\' => 
         array (
